@@ -1,0 +1,32 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TH,Prompt Reel 800,80,&H00FFFFFF,&H00FFFFFF,&H00301A10,&H96000000,0,0,0,0,100,100,0,0,1,7,3,2,70,70,600,1
+Style: EN,Prompt Reel 700,44,&H0066E0FF,&H00FFFFFF,&H00301A10,&H96000000,0,0,0,0,100,100,0,0,1,5,2,2,70,70,525,1
+Style: Title,Prompt Reel 800,92,&H00301A10,&H00FFFFFF,&H0033D2FF,&H0033D2FF,0,0,0,0,100,100,0,0,3,18,0,8,60,60,250,1
+Style: TitleEN,Prompt Reel 700,48,&H00FFFFFF,&H00FFFFFF,&H00301A10,&H96000000,0,0,0,0,100,100,0,0,1,5,2,8,60,60,410,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.15,0:00:03.40,Title,,0,0,0,,{\fscx40\fscy40\t(0,220,\fscx108\fscy108)\t(220,360,\fscx100\fscy100)\fad(0,250)}ต่อบล็อกไม้ในบ้าน
+Dialogue: 1,0:00:00.45,0:00:03.40,TitleEN,,0,0,0,,{\fad(200,250)}Building with wooden blocks
+Dialogue: 0,0:00:00.50,0:00:02.45,TH,,0,0,0,,{\fad(80,80)}สวัสดีค่ะ!
+Dialogue: 0,0:00:00.50,0:00:02.45,EN,,0,0,0,,{\fad(80,80)}Hello!
+Dialogue: 0,0:00:02.50,0:00:07.20,TH,,0,0,0,,{\fad(80,80)}วันนี้จะมาต่อบล็อก\Nที่มีอยู่ในบ้าน
+Dialogue: 0,0:00:02.50,0:00:07.20,EN,,0,0,0,,{\fad(80,80)}Today I'm building with our blocks at home
+Dialogue: 0,0:00:07.22,0:00:10.80,TH,,0,0,0,,{\fad(80,80)}เป็นบล็อกไม้ที่มีอยู่ในบ้าน\Nเป็นลูกอะไรดี?
+Dialogue: 0,0:00:07.22,0:00:10.80,EN,,0,0,0,,{\fad(80,80)}Wooden blocks! What should I make?
+Dialogue: 0,0:00:10.82,0:00:12.48,TH,,0,0,0,,{\fad(80,80)}อันนี้อย่างเช่น…
+Dialogue: 0,0:00:10.82,0:00:12.48,EN,,0,0,0,,{\fad(80,80)}Like this one…
+Dialogue: 0,0:00:12.50,0:00:14.08,TH,,0,0,0,,{\fscx70\fscy70\t(0,150,\fscx112\fscy112)\t(150,260,\fscx100\fscy100)}ลูกพิซซ่า!
+Dialogue: 0,0:00:12.50,0:00:14.08,EN,,0,0,0,,A pizza!
+Dialogue: 0,0:00:14.10,0:00:14.90,TH,,0,0,0,,{\fad(60,0)}อันนี้…
+Dialogue: 0,0:00:14.10,0:00:14.90,EN,,0,0,0,,{\fad(60,0)}And this one…
+Dialogue: 0,0:00:15.15,0:00:17.60,TH,,0,0,0,,{\fscx70\fscy70\t(0,150,\fscx112\fscy112)\t(150,260,\fscx100\fscy100)\fad(0,120)}ลูกสุนัขจิ้งจอก!
+Dialogue: 0,0:00:15.15,0:00:17.60,EN,,0,0,0,,{\fad(0,120)}A fox!

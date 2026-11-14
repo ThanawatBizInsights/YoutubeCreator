@@ -1,0 +1,6 @@
+# Personal video files: kept out of git on purpose (privacy, size)
+source/
+work/
+output/
+*.mov
+*.mp4

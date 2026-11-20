@@ -1,0 +1,98 @@
+{
+  "episode": 2,
+  "code": "EP02",
+  "title_th": "จากสีเหลือง…สู่กลิ่นหอมและ First Crack",
+  "renderer": "tools/build_reel.py",
+
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "bcdIY58WBBzAMmef52NW",
+    "voice_name": "Zie - Calm, Friendly Thai Storyteller & Narrator (ElevenLabs library voice)",
+    "model_id": "eleven_v4",
+    "settings": {},
+    "note": "Identical to EP01 (episodes/ep01.json). Reuse unchanged for EP03."
+  },
+
+  "narration": [
+    {"id": "A", "role": "browning and aroma", "at": 1.90,
+     "text": "จากเมล็ดสีเหลือง ความร้อนทำให้เกิดปฏิกิริยา เช่น เมลลาร์ด ช่วยสร้างสีน้ำตาลและกลิ่นหอมของกาแฟ",
+     "tts_input": "[warmly] จากเมล็ดสีเหลือง ความร้อนทำให้เกิดปฏิกิริยา เช่น เมลลาร์ด ช่วยสร้างสีน้ำตาลและกลิ่นหอมของกาแฟ",
+     "phrases": [["จากเมล็ดสีเหลือง", 0.05, 1.26], ["ความร้อนทำให้เกิดปฏิกิริยา", 1.58, 3.52], ["เช่น เมลลาร์ด", 3.64, 4.85], ["ช่วยสร้างสีน้ำตาลและกลิ่นหอมของกาแฟ", 4.85, 7.55]]},
+    {"id": "B", "role": "pressure and first crack", "at": 9.75,
+     "text": "ไอน้ำและก๊าซภายในทำให้เมล็ดขยายตัว จนได้ยินเสียงแตกครั้งแรก หรือ เฟิร์สต์แคร็ก",
+     "tts_input": "[curious] ไอน้ำและก๊าซภายในทำให้เมล็ดขยายตัว จนได้ยินเสียงแตกครั้งแรก หรือ เฟิร์สต์แคร็ก",
+     "phrases": [["ไอน้ำและก๊าซภายใน", 0.02, 1.50], ["ทำให้เมล็ดขยายตัว", 1.50, 3.00], ["จนได้ยินเสียงแตกครั้งแรก", 3.00, 4.75], ["หรือ เฟิร์สต์แคร็ก", 5.18, 6.90]]},
+    {"id": "C", "role": "after the sound", "at": 17.65,
+     "text": "แต่นี่ยังไม่ใช่จุดจบของการคั่ว",
+     "tts_input": "[warmly] แต่นี่ยังไม่ใช่จุดจบของการคั่ว",
+     "phrases": [["แต่นี่ยังไม่ใช่จุดจบของการคั่ว", 0.13, 2.54]]},
+    {"id": "D", "role": "ending invitation", "at": 20.60,
+     "text": "ตอนหน้า มาดูกันว่าหยุดคั่วตอนไหน กดติดตาม แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",
+     "tts_input": "[warmly] ตอนหน้า มาดูกันว่าหยุดคั่วตอนไหน กดติดตาม แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",
+     "phrases": [["ตอนหน้า มาดูกันว่าหยุดคั่วตอนไหน", 0.13, 2.83], ["กดติดตาม", 3.17, 3.80], ["แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์", 4.15, 6.55]]}
+  ],
+  "ending_hold_after_voice": 1.05,
+
+  "source_video": "assets/source/ep02_roasting_source.mp4",
+  "picture": {
+    "fps": 30, "size": [1080, 1920],
+    "opening": {"image": "assets/cards/ep02_opening_cover.webp", "dur": 1.80},
+    "shots": [
+      {"id": "yellow_beans_drum",   "src_in": 0.10,  "src_dur": 3.60,  "speed": 1.0,  "push": [1.0, 1.0],   "hold": 0.0,  "xfade_in": 0.0},
+      {"id": "cutaway_chem_steam",  "src_in": 3.90,  "src_dur": 8.00,  "speed": 1.0,  "push": [1.0, 1.0],   "hold": 0.0,  "xfade_in": 0.25},
+      {"id": "brown_beans_tumble",  "src_in": 12.00, "src_dur": 1.00,  "speed": 0.9,  "push": [1.0, 1.02],  "hold": 0.0,  "xfade_in": 0.0},
+      {"id": "first_crack_closeup", "src_in": 13.00, "src_dur": 3.033, "speed": 0.62, "push": [1.02, 1.075], "hold": 1.10, "xfade_in": 0.0}
+    ],
+    "ending": {"image": "assets/cards/ep02_ending_ep03_teaser.webp", "xfade_in": 0.40},
+    "fade_out": 0.30
+  },
+
+  "captions": [
+    {"lines": ["จากเมล็ดสีเหลือง"],                           "start": 1.92,  "end": 3.40},
+    {"lines": ["ความร้อนทำให้เกิดปฏิกิริยา"],                   "start": 3.44,  "end": 5.48},
+    {"lines": ["เช่น {ปฏิกิริยาเมลลาร์ด}"],                     "start": 5.50,  "end": 6.72},
+    {"lines": ["ช่วยสร้างสีน้ำตาล", "และกลิ่นหอมของกาแฟ"],         "start": 6.74,  "end": 9.62},
+    {"lines": ["ไอน้ำและก๊าซภายใน"],                           "start": 9.76,  "end": 11.23},
+    {"lines": ["ทำให้เมล็ดขยายตัว"],                            "start": 11.25, "end": 12.73},
+    {"lines": ["จนได้ยินเสียงแตกครั้งแรก"],                      "start": 12.75, "end": 14.80},
+    {"lines": ["หรือ [First Crack]"],                           "start": 14.90, "end": 16.75},
+    {"lines": ["แต่นี่ยังไม่ใช่จุดจบ", "ของการคั่ว"],                "start": 17.74, "end": 19.95}
+  ],
+  "srt_extra_card_captions": [
+    {"lines": ["ตอนหน้า มาดูกันว่า", "หยุดคั่วตอนไหน"],              "start": 20.70, "end": 23.55},
+    {"lines": ["กดติดตาม"],                                    "start": 23.60, "end": 24.60},
+    {"lines": ["แล้วเลือกกาแฟที่ชอบ", "ได้ที่ลิงก์หน้าโปรไฟล์"],        "start": 24.65, "end": 28.00}
+  ],
+  "caption_markup": "{word} = butter yellow, [word] = ocean blue. Narration captions are burned on footage only; the cards' own text carries the opening and ending.",
+  "labels": [
+    {"text": "ภาพจำลองเพื่ออธิบาย • ย่นเวลา",   "start": 5.45,  "end": 13.10, "style": "note"},
+    {"text": "ปฏิกิริยาเมลลาร์ด",               "start": 6.80,  "end": 9.55,  "style": "label"},
+    {"text": "ไอน้ำและก๊าซ",                   "start": 11.30, "end": 13.10, "style": "label"},
+    {"text": "First Crack — เสียงแตกครั้งแรก",   "start": 16.70, "end": 19.80, "style": "label"}
+  ],
+
+  "audio": {
+    "beds": [
+      {"file": "assets/sfx/roasting_drum_bed_loop.mp3", "loop": true, "base_db": 22, "duck_under_voice": true,
+       "gain_points_db": [[1.80, -40], [2.10, 0], [5.20, 0], [5.60, -9], [12.90, -9], [13.30, 0], [16.50, 0], [16.75, -6], [17.70, -6], [18.00, 0], [19.85, 0], [20.40, -40]]}
+    ],
+    "sfx": [
+      {"file": "assets/sfx/soft_transition_whoosh.mp3", "at": 5.00, "base_db": -8},
+      {"file": "assets/sfx/first_crack.mp3", "at": 13.90, "trim_in": 0.40, "base_db": 3,
+       "gain_points_db": [[14.30, -40], [14.70, -10], [16.55, -10], [16.70, 0], [17.70, 0], [17.85, -10], [19.00, -10], [19.60, -40]],
+       "note": "Ticks land at ~15.2, 15.9, 16.8, 16.9, 17.7 s; full level only in the 16.65–17.75 s listening pause (no speech)."},
+      {"file": "assets/sfx/soft_transition_accent.mp3", "at": 19.55, "base_db": -12, "max_dur": 1.5}
+    ],
+    "music": null,
+    "music_note": "Omitted, as in EP01: no approved music asset exists, and ElevenLabs Music Terms list Starter as 'For Individual Use Only'.",
+    "target_lufs": -15, "true_peak": -1.5
+  },
+
+  "outputs": {
+    "final": "output/Balena_EP02_Final_TH.mp4",
+    "clean": "output/Balena_EP02_Clean.mp4",
+    "srt": "output/Balena_EP02_TH.srt",
+    "voice_dir": "output/Balena_EP02_VO",
+    "ending_png": "output/Balena_EP02_EndCard_EP03.png"
+  }
+}

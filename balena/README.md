@@ -20,18 +20,36 @@ balena/
 ## Render
 
 ```bash
-cd balena && python3 tools/build_episode.py episodes/ep01.json
+cd balena && python3 tools/build_episode.py episodes/ep01.json   # EP.01: original renderer
+cd balena && python3 tools/build_reel.py episodes/ep02.json      # EP.02 onward
 ```
+
+`build_reel.py` adds:
+
+- full-screen static cards: proportional scale to 1920 px tall, no frame, blur or caption band;
+- per-shot speed with frame blending, last-frame holds and push-ins;
+- scene labels;
+- looping ambience beds and effects with gain automation (`gain_points_db`);
+- separate stems in `work/<code>/stems/`.
+
+Captions are burned onto the footage only. The text spoken over the cards goes in the SRT (`srt_extra_card_captions`).
 
 The renderer needs Python 3 with Pillow and ffmpeg built with libass.
 
-## New episode
+## New episode (EP.03)
 
-1. Copy `episodes/ep01.json` to `ep02.json`. Change the narration, cards, source and shots.
+1. Copy `episodes/ep02.json` to `ep03.json`. Change the narration, cards, source, shots, captions and labels.
 2. Keep `voice.voice_id` and `voice.model_id` so the narrator stays the same across the series.
 3. Run `ELEVENLABS_API_KEY=... python3 tools/tts_elevenlabs.py episodes/ep02.json`. It only generates segments that aren't already cached.
 4. Check the narration: `python3 tools/align.py cache/voice/<hash>.mp3 out.json`, and listen to it.
-5. Set `chunks` (cut points in pauses), `phrases` and `captions` from the measured timings, then render.
+5. Set the `phrases`, `captions` and `labels` times from the measured pauses. Check each caption break by cutting the take there and transcribing both parts. Then render.
+
+Effects ready to reuse in `assets/sfx/` (each with a provenance JSON):
+
+- roasting drum bed (loop);
+- soft transition whoosh;
+- ending accent;
+- first crack, which is illustrative and synthesized.
 
 ## Voice
 

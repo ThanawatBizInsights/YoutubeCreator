@@ -1,0 +1,19 @@
+{
+ "file": "first_crack.mp3",
+ "source": "ElevenLabs Sound Effects (connector)",
+ "model_id": "eleven_text_to_sound_v3",
+ "prompt": "Close, dry, irregular snapping and popping from coffee beans reaching first crack inside a rotating roaster. A few distinct woody papery ticks over a low mechanical drum bed. Natural scale, restrained dynamics, no speech, music, fire, explosions, gunshots, or exaggerated popcorn burst.",
+ "settings": {
+  "duration_seconds": 6,
+  "prompt_influence": 0.5,
+  "loop": false
+ },
+ "generation_id": "CWqXS9E9OsAyeuJu5g8M",
+ "flow_id": "UJjL1JaWRdla6hsjSlvI",
+ "credits": 20,
+ "created": "2026-11-20",
+ "chosen_from": "4 takes; take 4: distinct irregular ticks, no continuous rattle",
+ "plan_at_creation": "ElevenLabs Starter",
+ "authenticity": "Synthesized illustrative effect; not an authentic recording.",
+ "usage_terms": "Per ElevenLabs terms for paid plans; check current ElevenLabs Terms of Service. Not described as copyright-free or Content-ID-free."
+}

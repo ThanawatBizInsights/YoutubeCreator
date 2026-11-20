@@ -1,0 +1,19 @@
+{
+ "file": "roasting_drum_bed_loop.mp3",
+ "source": "ElevenLabs Sound Effects (connector)",
+ "model_id": "eleven_text_to_sound_v3",
+ "prompt": "Quiet low hum of a small coffee roasting drum turning steadily, with gentle dry coffee beans softly tumbling and sliding against the metal drum. Even, calm, close but unobtrusive. No cracking, no pops, no hiss, no music, no voices.",
+ "settings": {
+  "duration_seconds": 10,
+  "prompt_influence": 0.5,
+  "loop": true
+ },
+ "generation_id": "9u2ko5OUtrTNkQsMbCNm",
+ "flow_id": "UJjL1JaWRdla6hsjSlvI",
+ "credits": 33.33,
+ "created": "2026-11-20",
+ "chosen_from": "4 takes; take 3: cleanest loop join",
+ "plan_at_creation": "ElevenLabs Starter",
+ "authenticity": "Synthesized illustrative effect; not an authentic recording.",
+ "usage_terms": "Per ElevenLabs terms for paid plans; check current ElevenLabs Terms of Service. Not described as copyright-free or Content-ID-free."
+}

@@ -1,0 +1,83 @@
+{
+  "episode": 3,
+  "code": "EP03",
+  "title_th": "หยุดคั่วแล้ว…ทำไมต้องรีบเย็น?",
+  "renderer": "remotion (balena/remotion, compositions Balena-EP03-Final / Balena-EP03-Clean)",
+
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "bcdIY58WBBzAMmef52NW",
+    "voice_name": "Zie - Calm, Friendly Thai Storyteller & Narrator (ElevenLabs library voice)",
+    "model_id": "eleven_v4",
+    "settings": {},
+    "note": "Identical to EP01/EP02. Avoid a delivery tag directly before 'เสียง…' phrases: with '[warmly] เสียงแตกครั้งแรก…' eleven_v4 performed a sound instead of speaking the words (both takes). Segment B is untagged."
+  },
+
+  "narration": [
+    {"id": "A", "role": "opening hook", "at": 0.35, "file_key": "16a2119fc12652b2eb48",
+     "text": "หยุดคั่วแล้ว ทำไมต้องรีบทำให้เย็น?", "tts_input": "[curious] หยุดคั่วแล้ว ทำไมต้องรีบทำให้เย็น?",
+     "phrases": [["หยุดคั่วแล้ว", 0.07, 0.99], ["ทำไมต้องรีบทำให้เย็น?", 1.21, 2.38]]},
+    {"id": "B", "role": "roast endpoint", "at": 3.45, "file_key": "ce2a82f616708acce7a8",
+     "text": "เสียงแตกครั้งแรก ไม่ได้แปลว่าต้องหยุดคั่วทันที เราเลือกจบการคั่วตามระดับที่ต้องการ",
+     "tts_input": "เสียงแตกครั้งแรก ไม่ได้แปลว่าต้องหยุดคั่วทันที เราเลือกจบการคั่วตามระดับที่ต้องการ",
+     "phrases": [["เสียงแตกครั้งแรก", 0.02, 1.33], ["ไม่ได้แปลว่าต้องหยุดคั่วทันที", 1.59, 3.35], ["เราเลือกจบการคั่วตามระดับที่ต้องการ", 3.86, 6.34]]},
+    {"id": "C", "role": "cooling", "at": 10.10, "file_key": "f52f86a71f5055c9a7ca",
+     "text": "จากนั้นปล่อยเมล็ดลงถาด ใช้ลมช่วยระบายความร้อน เพื่อลดการคั่วต่อจากความร้อนที่ยังสะสมอยู่",
+     "tts_input": "[warmly] จากนั้นปล่อยเมล็ดลงถาด ใช้ลมช่วยระบายความร้อน เพื่อลดการคั่วต่อจากความร้อนที่ยังสะสมอยู่",
+     "phrases": [["จากนั้น ปล่อยเมล็ดลงถาด", 0.10, 1.85], ["ใช้ลมช่วยระบายความร้อน", 2.23, 3.96], ["เพื่อลดการคั่วต่อจากความร้อนที่ยังสะสมอยู่", 3.96, 6.95]]},
+    {"id": "D", "role": "closing", "at": 19.60, "file_key": "fc9c46df67e4424e910e",
+     "text": "กดติดตามเรื่องกาแฟตอนต่อไป แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",
+     "tts_input": "[warmly] กดติดตามเรื่องกาแฟตอนต่อไป แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",
+     "phrases": [["กดติดตามเรื่องกาแฟตอนต่อไป", 0.10, 2.00], ["แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์", 2.22, 4.72]]}
+  ],
+
+  "source_video": "assets/source/ep03_cooling_source.mp4",
+  "source_scenes": {"drum_roast_end": [0.0, 3.93], "discharge_pour": [3.97, 8.0], "cooling_tray_stir": [8.03, 12.0], "cooled_beans_reveal": [12.03, 16.1]},
+
+  "timeline_seconds": {
+    "total": 25.40,
+    "opening_card":   {"from": 0.00, "dur": 3.20, "image": "assets/cards/ep03_opening_cover.webp"},
+    "shot_drum":      {"from": 2.90, "dur": 4.13, "src_in": 0.00,  "rate": 0.92, "fade_in": 0.30},
+    "shot_discharge": {"from": 7.03, "dur": 4.70, "src_in": 3.97,  "rate": 0.85},
+    "shot_cooling":   {"from": 11.73, "dur": 5.25, "src_in": 8.03, "rate": 0.75},
+    "shot_cooled":    {"from": 16.98, "dur": 2.40, "src_in": 12.03, "rate": 1.0, "push": [1.0, 1.04]},
+    "ending_card":    {"from": 19.03, "dur": 6.37, "image": "assets/cards/ep03_ending_ethiopia_brazil.webp", "fade_in": 0.35}
+  },
+
+  "captions_burned": [
+    {"lines": ["เสียงแตกครั้งแรก"],                         "start": 3.40,  "end": 4.88},
+    {"lines": ["ไม่ได้แปลว่าต้องหยุดคั่วทันที"],                "start": 4.90,  "end": 7.10},
+    {"lines": ["เราเลือกจบการคั่ว", "ตามระดับที่ต้องการ"],        "start": 7.20,  "end": 9.95},
+    {"lines": ["จากนั้น ปล่อยเมล็ดลงถาด"],                    "start": 10.12, "end": 12.10},
+    {"lines": ["ใช้ลมช่วยระบายความร้อน"],                      "start": 12.15, "end": 14.08},
+    {"lines": ["เพื่อลดการคั่วต่อ", "จากความร้อนที่ยังสะสมอยู่"],    "start": 14.10, "end": 17.30}
+  ],
+  "captions_srt_only_cards": [
+    {"lines": ["หยุดคั่วแล้ว"],                                "start": 0.40,  "end": 1.45},
+    {"lines": ["ทำไมต้องรีบทำให้เย็น?"],                        "start": 1.50,  "end": 3.10},
+    {"lines": ["กดติดตามเรื่องกาแฟตอนต่อไป"],                   "start": 19.68, "end": 21.70},
+    {"lines": ["แล้วเลือกกาแฟที่ชอบ", "ได้ที่ลิงก์หน้าโปรไฟล์"],      "start": 21.75, "end": 25.20}
+  ],
+  "labels": [
+    {"text": "ภาพจำลองแบบย่นเวลา",              "start": 3.20,  "end": 19.03, "style": "note"},
+    {"text": "ระบายความร้อน",                  "start": 14.20, "end": 16.90, "style": "label"},
+    {"text": "ลดการคั่วต่อจากความร้อนสะสม",       "start": 17.35, "end": 18.95, "style": "label"}
+  ],
+
+  "audio": {
+    "voice_files": "cache/voice/<file_key>.mp3",
+    "reused_sfx": ["assets/sfx/roasting_drum_bed_loop.mp3 (EP02)", "assets/sfx/soft_transition_accent.mp3 (EP01)"],
+    "new_sfx": ["assets/sfx/beans_cascade_tray.mp3", "assets/sfx/cooling_fan_airflow_loop.mp3", "assets/sfx/cooling_tray_stirring_loop.mp3"],
+    "not_used": "assets/sfx/first_crack.mp3 (EP02) - deliberately not used in EP03",
+    "music": null,
+    "music_note": "Omitted, as in EP01/EP02: no approved music asset exists; ElevenLabs Music Terms list Starter as 'For Individual Use Only'.",
+    "target_lufs": -15, "true_peak": -1.5
+  },
+
+  "outputs": {
+    "final": "output/Balena_EP03_Final_TH.mp4",
+    "clean": "output/Balena_EP03_Clean.mp4",
+    "srt": "output/Balena_EP03_TH.srt",
+    "voice_dir": "output/Balena_EP03_VO"
+  }
+}

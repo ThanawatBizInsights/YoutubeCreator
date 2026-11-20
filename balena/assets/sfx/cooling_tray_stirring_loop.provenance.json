@@ -1,0 +1,19 @@
+{
+ "file": "cooling_tray_stirring_loop.mp3",
+ "source": "ElevenLabs Sound Effects (connector)",
+ "model_id": "eleven_text_to_sound_v3",
+ "prompt": "Gentle mechanical stirring arms slowly sweeping through roasted coffee beans in a metal cooling tray: soft continuous bean shuffling and light dry rustle, quiet low mechanical turning. No cracking pops, no clanks, no music, no voices.",
+ "settings": {
+  "duration_seconds": 10,
+  "prompt_influence": 0.5,
+  "loop": true
+ },
+ "generation_id": "JcToBRLHLvGy1Eo8pbpq",
+ "flow_id": "qJth7UlJefsPolLqVqFP",
+ "credits": 33.33,
+ "created": "2026-11-20",
+ "chosen_from": "4 takes; take 2: cleanest loop join",
+ "plan_at_creation": "ElevenLabs Starter",
+ "authenticity": "Synthesized illustrative effect; not a recording of Balena's roaster.",
+ "usage_terms": "Per ElevenLabs terms for paid plans; check current ElevenLabs Terms of Service. Not described as copyright-free or Content-ID-free."
+}

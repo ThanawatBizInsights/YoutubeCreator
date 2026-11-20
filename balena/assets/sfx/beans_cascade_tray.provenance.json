@@ -1,0 +1,19 @@
+{
+ "file": "beans_cascade_tray.mp3",
+ "source": "ElevenLabs Sound Effects (connector)",
+ "model_id": "eleven_text_to_sound_v3",
+ "prompt": "Freshly roasted dry coffee beans pouring out of a roaster door and cascading onto a perforated metal cooling tray: a steady rushing patter of many small dry beans on metal, natural scale, moderate level. No cracking pops, no impacts, no music, no voices.",
+ "settings": {
+  "duration_seconds": 5,
+  "prompt_influence": 0.5,
+  "loop": false
+ },
+ "generation_id": "CtYSiSUhBIonTAfJYwRJ",
+ "flow_id": "qJth7UlJefsPolLqVqFP",
+ "credits": 16.67,
+ "created": "2026-11-20",
+ "chosen_from": "4 takes; take 1: lowest crest, longest steady pour (0.35-3.85 s)",
+ "plan_at_creation": "ElevenLabs Starter",
+ "authenticity": "Synthesized illustrative effect; not a recording of Balena's roaster.",
+ "usage_terms": "Per ElevenLabs terms for paid plans; check current ElevenLabs Terms of Service. Not described as copyright-free or Content-ID-free."
+}

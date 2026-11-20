@@ -21,8 +21,10 @@ balena/
 
 ```bash
 cd balena && python3 tools/build_episode.py episodes/ep01.json   # EP.01: original renderer
-cd balena && python3 tools/build_reel.py episodes/ep02.json      # EP.02 onward
+cd balena && python3 tools/build_reel.py episodes/ep02.json      # EP.02: FFmpeg renderer
 ```
+
+EP.03 onward is built in **Remotion**: see `remotion/README.md` for the render steps (`prepare_remotion.py` → `npx remotion render` → `finalize_remotion.sh` → `export_srt_vo.py`).
 
 `build_reel.py` adds:
 

@@ -1,0 +1,19 @@
+{
+ "file": "cooling_fan_airflow_loop.mp3",
+ "source": "ElevenLabs Sound Effects (connector)",
+ "model_id": "eleven_text_to_sound_v3",
+ "prompt": "Steady soft airflow from a coffee roaster cooling-tray fan drawing air down through a perforated tray: smooth broadband whoosh with a low gentle motor hum, constant and calm. No hiss bursts, no steam, no water, no music, no voices.",
+ "settings": {
+  "duration_seconds": 10,
+  "prompt_influence": 0.5,
+  "loop": true
+ },
+ "generation_id": "a1PX4iROymayDLSelP9f",
+ "flow_id": "qJth7UlJefsPolLqVqFP",
+ "credits": 33.33,
+ "created": "2026-11-20",
+ "chosen_from": "4 takes; take 2: best loop join (spectral sim 0.90, jump 0.0008)",
+ "plan_at_creation": "ElevenLabs Starter",
+ "authenticity": "Synthesized illustrative effect; not a recording of Balena's roaster.",
+ "usage_terms": "Per ElevenLabs terms for paid plans; check current ElevenLabs Terms of Service. Not described as copyright-free or Content-ID-free."
+}

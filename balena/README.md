@@ -40,7 +40,7 @@ The renderer needs Python 3 with Pillow and ffmpeg built with libass.
 
 1. Copy `episodes/ep02.json` to `ep03.json`. Change the narration, cards, source, shots, captions and labels.
 2. Keep `voice.voice_id` and `voice.model_id` so the narrator stays the same across the series.
-3. Run `ELEVENLABS_API_KEY=... python3 tools/tts_elevenlabs.py episodes/ep02.json`. It only generates segments that aren't already cached.
+3. Run `ELEVENLABS_API_KEY=... python3 tools/tts_elevenlabs.py episodes/ep03.json`. It only generates segments that aren't already cached.
 4. Check the narration: `python3 tools/align.py cache/voice/<hash>.mp3 out.json`, and listen to it.
 5. Set the `phrases`, `captions` and `labels` times from the measured pauses. Check each caption break by cutting the take there and transcribing both parts. Then render.
 

@@ -5,3 +5,6 @@ output/
 *.mov
 *.mp4
 reel/cards/
+balena/cache/voice/rejected/
+balena/cache/sfx/rejected/
+__pycache__/

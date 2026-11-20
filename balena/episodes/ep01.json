@@ -1,0 +1,97 @@
+{
+  "episode": 1,
+  "code": "EP01",
+  "title_th": "เมล็ดเขียว เปลี่ยนสีได้ไง?",
+  "brand": "Balena Roastery",
+
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "bcdIY58WBBzAMmef52NW",
+    "voice_name": "Zie - Calm, Friendly Thai Storyteller & Narrator (ElevenLabs library voice)",
+    "model_id": "eleven_v4",
+    "language": "th",
+    "settings": {},
+    "note": "Model chosen after eleven_v3 mispronounced 'เริ่ม' in both takes; eleven_v4 and eleven_v3 list Thai in the official models doc, eleven_multilingual_v2 / flash_v2_5 do not."
+  },
+
+  "narration": [
+    {
+      "id": "explanation",
+      "text": "รู้ไหม? ก่อนคั่ว เมล็ดกาแฟเป็นสีเขียว เมื่อได้รับความร้อน ความชื้นจะค่อย ๆ ลดลง พร้อมกับสีที่เปลี่ยนเป็นเหลือง นี่แค่จุดเริ่มต้นของการคั่วเท่านั้น",
+      "tts_input": "[curious] รู้ไหม? [warmly] ก่อนคั่ว เมล็ดกาแฟเป็นสีเขียว [short pause] เมื่อได้รับความร้อน ความชื้นจะค่อย ๆ ลดลง พร้อมกับสีที่เปลี่ยนเป็นเหลือง [short pause] นี่แค่จุดเริ่มต้นของการคั่วเท่านั้น",
+      "chunks": [
+        {"id": "E1", "from": 0.00, "to": 0.85, "at": 0.40},
+        {"id": "E2", "from": 0.85, "to": 3.70, "at": 1.15},
+        {"id": "E3", "from": 3.70, "to": 9.00, "at": 4.45},
+        {"id": "E4", "from": 9.00, "to": 11.44, "at": 9.75}
+      ],
+      "phrases": [
+        {"text": "รู้ไหม?",                              "from": 0.08, "to": 0.62},
+        {"text": "ก่อนคั่ว",                              "from": 1.08, "to": 1.82},
+        {"text": "เมล็ดกาแฟเป็นสีเขียว",                   "from": 2.00, "to": 3.41},
+        {"text": "เมื่อได้รับความร้อน",                     "from": 4.04, "to": 5.18},
+        {"text": "ความชื้นจะค่อย ๆ ลดลง",                  "from": 5.37, "to": 7.00},
+        {"text": "พร้อมกับสีที่เปลี่ยนเป็นเหลือง",            "from": 7.21, "to": 8.76},
+        {"text": "นี่แค่จุดเริ่มต้นของการคั่วเท่านั้น",          "from": 9.26, "to": 11.24}
+      ]
+    },
+    {
+      "id": "ending",
+      "text": "กดติดตามตอนต่อไป แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",
+      "tts_input": "[warmly] กดติดตามตอนต่อไป แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",
+      "chunks": [{"id": "N1", "from": 0.0, "to": 4.48, "at": 12.85}],
+      "phrases": [
+        {"text": "กดติดตามตอนต่อไป",                     "from": 0.13, "to": 1.48},
+        {"text": "แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",  "from": 1.75, "to": 4.29}
+      ]
+    }
+  ],
+
+  "captions": [
+    {"lines": ["รู้ไหม?"],                                    "start": 0.45, "end": 1.28, "zone": "card"},
+    {"lines": ["ก่อนคั่ว", "เมล็ดกาแฟเป็นสีเขียว"],              "start": 1.36, "end": 4.40, "zone": "footage"},
+    {"lines": ["เมื่อได้รับ{ความร้อน}", "ความชื้นจะค่อย ๆ ลดลง"],   "start": 4.74, "end": 7.88, "zone": "footage"},
+    {"lines": ["พร้อมกับสีที่เปลี่ยนเป็น{เหลือง}"],               "start": 7.90, "end": 9.86, "zone": "footage"},
+    {"lines": ["นี่แค่[จุดเริ่มต้น]", "ของการคั่วเท่านั้น"],         "start": 9.96, "end": 12.24, "zone": "footage"},
+    {"lines": ["กดติดตามตอนต่อไป"],                            "start": 12.94, "end": 14.56, "zone": "card"},
+    {"lines": ["แล้วเลือกกาแฟที่ชอบ", "ได้ที่ลิงก์หน้าโปรไฟล์"],     "start": 14.58, "end": 18.20, "zone": "card"}
+  ],
+  "caption_markup": "{word} = butter yellow highlight, [word] = ocean blue highlight",
+
+  "timelapse_note": {"text": "ภาพจำลองแบบย่นเวลา", "start": 4.60, "end": 12.25},
+
+  "picture": {
+    "fps": 30,
+    "size": [1080, 1920],
+    "intro_card":  {"image": "assets/cards/ep01_thumbnail.webp", "start": 0.00, "dur": 1.45, "push": 0.025},
+    "shots": [
+      {"id": "green_beans_scoop", "src_in": 2.60,   "dur": 3.30, "push": 0.0,  "xfade_in": 0.15},
+      {"id": "drum_yellowing",    "src_in": 8.0333, "dur": 8.00, "push": 0.05, "xfade_in": 0.0}
+    ],
+    "ending_card": {"image": "assets/cards/ep01_ending.webp", "dur": 6.60, "push": 0.02, "xfade_in": 0.35},
+    "card_layout": {"scale": 0.72, "top": 420, "radius": 34},
+    "fade_out": 0.40
+  },
+
+  "source_video": "assets/source/ep01_roasting_source.mp4",
+
+  "audio": {
+    "voice_files": {"explanation": "cache/voice/{hash}.mp3", "ending": "cache/voice/{hash}.mp3"},
+    "ambience_from_source": true,
+    "ambience_gain_db": -6,
+    "ambience_duck": true,
+    "sfx": [{"file": "assets/sfx/soft_transition_accent.mp3", "at": 11.85, "gain_db": -12}],
+    "music": null,
+    "music_note": "Omitted: ElevenLabs Music Terms list Starter as 'For Individual Use Only'; no approved licensed track in the project.",
+    "target_lufs": -15,
+    "true_peak": -1.5
+  },
+
+  "outputs": {
+    "final": "output/Balena_EP01_Final_TH.mp4",
+    "clean": "output/Balena_EP01_Clean.mp4",
+    "srt": "output/Balena_EP01_TH.srt",
+    "voice_explanation": "output/Balena_EP01_VO_explanation.wav",
+    "voice_ending": "output/Balena_EP01_VO_ending.wav"
+  }
+}

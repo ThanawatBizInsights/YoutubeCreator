@@ -1,0 +1,49 @@
+{
+ "7cb56e44922a28e33500": {
+  "kind": "voice",
+  "file": "cache/voice/7cb56e44922a28e33500.mp3",
+  "text": "[curious] รู้ไหม? [warmly] ก่อนคั่ว เมล็ดกาแฟเป็นสีเขียว [short pause] เมื่อได้รับความร้อน ความชื้นจะค่อย ๆ ลดลง พร้อมกับสีที่เปลี่ยนเป็นเหลือง [short pause] นี่แค่จุดเริ่มต้นของการคั่วเท่านั้น",
+  "voice_id": "bcdIY58WBBzAMmef52NW",
+  "model_id": "eleven_v4",
+  "settings": {},
+  "provider": "elevenlabs",
+  "generation_id": "wdag9nUQz3WNz2HLXpuV",
+  "flow_id": "G7vSqTuzbx4XuGqBwPeT",
+  "credits": 193,
+  "created": "2026-11-20",
+  "chosen_from": "2 takes (P8hCvUwVVKbgyNsFi9NK, wdag9nUQz3WNz2HLXpuV)",
+  "qc": "Whisper large-v3 transcript matches script word for word"
+ },
+ "45b2959cfa5a01a8d985": {
+  "kind": "voice",
+  "file": "cache/voice/45b2959cfa5a01a8d985.mp3",
+  "text": "[warmly] กดติดตามตอนต่อไป แล้วเลือกกาแฟที่ชอบได้ที่ลิงก์หน้าโปรไฟล์",
+  "voice_id": "bcdIY58WBBzAMmef52NW",
+  "model_id": "eleven_v4",
+  "settings": {},
+  "provider": "elevenlabs",
+  "generation_id": "YJTA7Z598FGdRu8b3FVO",
+  "flow_id": "G7vSqTuzbx4XuGqBwPeT",
+  "credits": 67,
+  "created": "2026-11-20",
+  "chosen_from": "2 takes (YJTA7Z598FGdRu8b3FVO, nMkWGdCk7KKVz9PcVdwB)",
+  "qc": "Whisper large-v3 transcript matches script (ลิงค์/ลิงก์ spelling variant)"
+ },
+ "13b1cdf4c87946f7dd61": {
+  "kind": "sfx",
+  "file": "cache/sfx/13b1cdf4c87946f7dd61.mp3",
+  "text": "A single soft, warm transition accent: a gentle airy whoosh ending in a light wooden marimba-like tap, about one second, clean, no reverb tail, no music, no voice.",
+  "voice_id": null,
+  "model_id": "eleven_text_to_sound_v2",
+  "settings": {
+   "prompt_influence": 0.3,
+   "loop": false
+  },
+  "provider": "elevenlabs",
+  "generation_id": "yryJSEtxWyL9VvLe1LqH",
+  "flow_id": "G7vSqTuzbx4XuGqBwPeT",
+  "credits": 16.67,
+  "created": "2026-11-20",
+  "chosen_from": "4 takes"
+ }
+}

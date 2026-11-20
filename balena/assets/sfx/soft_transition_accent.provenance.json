@@ -1,0 +1,14 @@
+{
+ "file": "soft_transition_accent.mp3",
+ "source": "ElevenLabs Sound Effects (via ElevenLabs connector)",
+ "model_id": "eleven_text_to_sound_v2",
+ "prompt": "A single soft, warm transition accent: a gentle airy whoosh ending in a light wooden marimba-like tap, about one second, clean, no reverb tail, no music, no voice.",
+ "settings": {"prompt_influence": 0.3, "loop": false},
+ "generation_id": "yryJSEtxWyL9VvLe1LqH",
+ "flow_id": "G7vSqTuzbx4XuGqBwPeT",
+ "chosen_from": "4 takes; take 1 (shortest, softest envelope)",
+ "credits": 16.67,
+ "created": "2026-11-20",
+ "plan_at_creation": "ElevenLabs Starter",
+ "usage_terms": "Per ElevenLabs terms for paid plans; check the current ElevenLabs Terms of Service for your use. Not described as copyright-free or Content-ID-free."
+}

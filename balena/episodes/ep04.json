@@ -37,11 +37,11 @@
 
   "timeline_seconds": {
     "total": 38.80,
-    "opening_card": {"from": 0.00, "dur": 4.20, "image": "assets/cards/ep04_opening_cover.webp"},
+    "opening_card": {"from": 0.00, "dur": 4.20, "image": "assets/cards/ep04_opening_cover_v2.png"},
     "clip_light":   {"from": 3.90, "dur": 12.10, "src_in": 0.00,  "rate": 0.95, "fade_in": 0.30, "note": "source 8.5 s (first new fissure) lands at 12.85 s"},
     "clip_medium":  {"from": 16.00, "dur": 7.40, "src_in": 21.60, "rate": 0.85},
     "clip_dark":    {"from": 23.40, "dur": 9.20, "src_in": 36.60, "rate": 1.0},
-    "ending_card":  {"from": 32.60, "dur": 6.20, "image": "assets/cards/ep04_ending_laos_52hz.webp", "fade_in": 0.25}
+    "ending_card":  {"from": 32.60, "dur": 6.20, "image": "assets/cards/ep04_ending_laos_52hz_v2.png", "fade_in": 0.25}
   },
 
   "captions_burned": [

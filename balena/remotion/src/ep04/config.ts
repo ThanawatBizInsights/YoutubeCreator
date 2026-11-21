@@ -7,6 +7,12 @@ import episode from "../../../episodes/ep04.json";
 export const ep = episode;
 export const FPS = 30;
 export const TOTAL = ep.timeline_seconds.total;
+/** Staged card files keep the artwork's own extension (see tools/prepare_remotion.py). */
+const ext = (path: string) => path.slice(path.lastIndexOf("."));
+export const cards = {
+  opening: `ep04/opening_card${ext(ep.timeline_seconds.opening_card.image)}`,
+  ending: `ep04/ending_card${ext(ep.timeline_seconds.ending_card.image)}`,
+};
 
 /** Narration windows (absolute seconds) for ducking music / bed. */
 export const speechWindows: [number, number][] = ep.narration.flatMap((n) =>

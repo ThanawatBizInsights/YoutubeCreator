@@ -4,7 +4,7 @@ import { Audio } from "@remotion/media";
 import { loadFont } from "@remotion/fonts";
 import { Caption, duck, FullScreenCard, Shot } from "../components";
 import { theme } from "../theme";
-import { audio, ep, graphics as g, speechWindows, TOTAL } from "./config";
+import { audio, cards, ep, graphics as g, speechWindows, TOTAL } from "./config";
 import {
   AmberHighlight,
   ComponentLabel,
@@ -111,10 +111,10 @@ export const BalenaEP04: React.FC<BalenaEP04Props> = ({ showCaptions }) => {
 
       {/* ---------- FULL-SCREEN CARDS (static; short fades only; no overlays) ---------- */}
       <Sequence name="Opening card (full screen)" from={0} durationInFrames={s(T.opening_card.dur)}>
-        <FullScreenCard src="ep04/opening_card.webp" />
+        <FullScreenCard src={cards.opening} />
       </Sequence>
       <Sequence name="Ending card (full screen)" from={s(T.ending_card.from)} durationInFrames={s(TOTAL - T.ending_card.from)}>
-        <FullScreenCard src="ep04/ending_card.webp" fadeIn={T.ending_card.fade_in} />
+        <FullScreenCard src={cards.ending} fadeIn={T.ending_card.fade_in} />
       </Sequence>
 
       {/* ---------- AUDIO: narration (chunks placed at measured pauses) ---------- */}

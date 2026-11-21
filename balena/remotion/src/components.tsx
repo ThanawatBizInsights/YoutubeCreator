@@ -22,11 +22,12 @@ export const FullScreenCard: React.FC<{ src: string; fadeIn?: number }> = ({ src
 };
 
 /** One source shot: trimmed, optionally slowed (frame-accurate, no optical flow), optional push-in and fade-in. */
-export const Shot: React.FC<{ srcIn: number; rate: number; push?: [number, number]; fadeIn?: number }> = ({
+export const Shot: React.FC<{ srcIn: number; rate: number; push?: [number, number]; fadeIn?: number; src?: string }> = ({
   srcIn,
   rate,
   push = [1, 1],
   fadeIn = 0,
+  src = "ep03/source.mp4",
 }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -38,7 +39,7 @@ export const Shot: React.FC<{ srcIn: number; rate: number; push?: [number, numbe
       }}
     >
       <Video
-        src={staticFile("ep03/source.mp4")}
+        src={staticFile(src)}
         trimBefore={Math.round(srcIn * fps)}
         playbackRate={rate}
         muted

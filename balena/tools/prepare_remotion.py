@@ -21,9 +21,13 @@ for n in ep["narration"]:
     f = f"cache/voice/{n['file_key']}.mp3"
     if not os.path.exists(f): sys.exit(f"missing cached narration {n['id']} ({f}); generate it once with tools/tts_elevenlabs.py")
     cp(f, f"vo_{n['id']}.mp3")
-print("effects:")
-for name in ("roasting_drum_bed_loop", "beans_cascade_tray", "cooling_fan_airflow_loop", "cooling_tray_stirring_loop", "soft_transition_accent"):
-    level(f"assets/sfx/{name}.mp3", f"{name}.wav")
+print("effects / music:")
+if "stage" in ep:   # EP04+: config lists what to stage and the RMS level for each
+    for name, src in ep["stage"]["audio"].items():
+        level(src, f"{name}.wav", ep["stage"]["level_dbfs"].get(name, -30.0))
+else:               # EP03 (original list)
+    for name in ("roasting_drum_bed_loop", "beans_cascade_tray", "cooling_fan_airflow_loop", "cooling_tray_stirring_loop", "soft_transition_accent"):
+        level(f"assets/sfx/{name}.mp3", f"{name}.wav")
 print("picture + font:")
 cp(ep["source_video"], "source.mp4")
 cp(ep["timeline_seconds"]["opening_card"]["image"], "opening_card.webp")

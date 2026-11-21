@@ -1,0 +1,97 @@
+{
+  "episode": 4,
+  "code": "EP04",
+  "title_th": "คั่วต่างกัน รสเปลี่ยนไหม?",
+  "renderer": "remotion (balena/remotion, compositions Balena-EP04-Final / Balena-EP04-Clean); timings below are read by remotion/src/ep04/config.ts",
+
+  "voice": {
+    "provider": "elevenlabs", "voice_id": "bcdIY58WBBzAMmef52NW",
+    "voice_name": "Zie - Calm, Friendly Thai Storyteller & Narrator (ElevenLabs library voice)",
+    "model_id": "eleven_v4", "settings": {},
+    "note": "Identical to EP01-EP03. LIGHT is untagged because it contains 'เสียงแตก' (see EP03 note)."
+  },
+
+  "narration": [
+    {"id": "OPEN", "file_key": "5d7a431c3a71fd256158", "text": "เมล็ดเดียวกัน คั่วต่างกัน รสเปลี่ยนไหม?",
+     "chunks": [{"from": 0.0, "to": 3.47, "at": 0.40}],
+     "phrases": [["เมล็ดเดียวกัน", 0.17, 1.09], ["คั่วต่างกัน รสเปลี่ยนไหม?", 1.49, 3.27]]},
+    {"id": "LIGHT", "file_key": "ca6dc33b77d72d244520", "text": "เริ่มจากเมล็ดเขียว ความร้อนไล่ความชื้น สร้างสีและกลิ่น ผ่านเสียงแตกครั้งแรก ก่อนพัฒนาต่อเป็นคั่วอ่อน",
+     "chunks": [{"from": 0.00, "to": 1.50, "at": 4.30}, {"from": 1.50, "to": 3.52, "at": 6.00}, {"from": 3.52, "to": 5.03, "at": 8.45},
+                {"from": 5.03, "to": 6.83, "at": 11.15}, {"from": 6.83, "to": 8.91, "at": 13.80}],
+     "phrases": [["เริ่มจากเมล็ดเขียว", 0.00, 1.29], ["ความร้อนไล่ความชื้น", 1.70, 3.40], ["สร้างสีและกลิ่น", 3.64, 4.86],
+                 ["ผ่านเสียงแตกครั้งแรก", 5.20, 6.59], ["ก่อนพัฒนาต่อเป็นคั่วอ่อน", 7.06, 8.70]]},
+    {"id": "MEDIUM", "file_key": "acb2ec67d93556de5377", "text": "เมื่อคั่วต่อ สีและกลิ่นยังพัฒนา เมล็ดเปลี่ยนเป็นสีน้ำตาลเข้มขึ้น จนถึงคั่วกลาง",
+     "chunks": [{"from": 0.0, "to": 6.53, "at": 16.40}],
+     "phrases": [["เมื่อคั่วต่อ", 0.00, 0.98], ["สีและกลิ่นยังพัฒนา", 1.25, 2.79], ["เมล็ดเปลี่ยนเป็นสีน้ำตาลเข้มขึ้น", 3.01, 5.14], ["จนถึงคั่วกลาง", 5.31, 6.30]]},
+    {"id": "DARK", "file_key": "5d12ddbe4a1068b7d76f", "text": "คั่วต่อจนเข้มขึ้น กลิ่นคั่วเด่น โดยทั่วไปขมเพิ่ม เปรี้ยวลด ทั้งนี้ขึ้นกับเมล็ดและวิธีคั่วด้วย",
+     "chunks": [{"from": 0.0, "to": 8.36, "at": 23.80}],
+     "phrases": [["คั่วต่อจนเข้มขึ้น", 0.00, 1.49], ["กลิ่นคั่วเด่น", 1.76, 2.80], ["โดยทั่วไป ขมเพิ่ม", 3.22, 4.78], ["เปรี้ยวลด", 4.99, 5.55], ["ทั้งนี้ขึ้นกับเมล็ดและวิธีคั่วด้วย", 5.85, 8.14]]},
+    {"id": "END", "file_key": "06c4bfeab4a581fe9682", "text": "คุณชอบคั่วแบบไหน? เลือกกาแฟที่ลิงก์หน้าโปรไฟล์ แล้วติดตามตอนต่อไปนะครับ",
+     "chunks": [{"from": 0.0, "to": 5.25, "at": 32.85}],
+     "phrases": [["คุณชอบคั่วแบบไหน?", 0.00, 1.22], ["เลือกกาแฟที่ลิงก์หน้าโปรไฟล์", 1.58, 3.36], ["แล้วติดตามตอนต่อไปนะครับ", 3.55, 4.95]]}
+  ],
+
+  "source_video": "assets/source/ep04_roast_levels_cutaway_source.mp4",
+  "source_scenes": {"green_to_light": [0.0, 16.1], "medium": [16.1, 32.2], "medium_internal_cut": 27.93, "dark": [32.2, 48.27]},
+  "colour_continuity": "segments chosen so mean bean luminance only falls across cuts: light ends ~105, medium 21.6-27.9 s runs 105->82, dark 36.6-45.8 s runs 80->74",
+
+  "timeline_seconds": {
+    "total": 38.80,
+    "opening_card": {"from": 0.00, "dur": 4.20, "image": "assets/cards/ep04_opening_cover.webp"},
+    "clip_light":   {"from": 3.90, "dur": 12.10, "src_in": 0.00,  "rate": 0.95, "fade_in": 0.30, "note": "source 8.5 s (first new fissure) lands at 12.85 s"},
+    "clip_medium":  {"from": 16.00, "dur": 7.40, "src_in": 21.60, "rate": 0.85},
+    "clip_dark":    {"from": 23.40, "dur": 9.20, "src_in": 36.60, "rate": 1.0},
+    "ending_card":  {"from": 32.60, "dur": 6.20, "image": "assets/cards/ep04_ending_laos_52hz.webp", "fade_in": 0.25}
+  },
+
+  "captions_burned": [
+    {"lines": ["เริ่มจากเมล็ดเขียว"], "start": 4.25, "end": 5.80},
+    {"lines": ["ความร้อนไล่ความชื้น"], "start": 6.10, "end": 8.10},
+    {"lines": ["สร้างสีและกลิ่น"], "start": 8.50, "end": 10.40},
+    {"lines": ["ผ่านเสียงแตกครั้งแรก"], "start": 11.25, "end": 12.85},
+    {"lines": ["ก่อนพัฒนาต่อเป็นคั่วอ่อน"], "start": 13.95, "end": 15.95},
+    {"lines": ["เมื่อคั่วต่อ"], "start": 16.35, "end": 17.55},
+    {"lines": ["สีและกลิ่นยังพัฒนา"], "start": 17.60, "end": 19.35},
+    {"lines": ["เมล็ดเปลี่ยนเป็น", "สีน้ำตาลเข้มขึ้น"], "start": 19.37, "end": 21.62},
+    {"lines": ["จนถึงคั่วกลาง"], "start": 21.65, "end": 23.35},
+    {"lines": ["คั่วต่อจนเข้มขึ้น"], "start": 23.75, "end": 25.45},
+    {"lines": ["กลิ่นคั่วเด่น"], "start": 25.50, "end": 26.90},
+    {"lines": ["โดยทั่วไป ขมเพิ่ม", "เปรี้ยวลด"], "start": 26.95, "end": 29.50},
+    {"lines": ["ทั้งนี้ขึ้นกับเมล็ด", "และวิธีคั่วด้วย"], "start": 29.55, "end": 32.50}
+  ],
+  "captions_srt_only_cards": [
+    {"lines": ["เมล็ดเดียวกัน"], "start": 0.50, "end": 1.45},
+    {"lines": ["คั่วต่างกัน รสเปลี่ยนไหม?"], "start": 1.50, "end": 3.90},
+    {"lines": ["คุณชอบคั่วแบบไหน?"], "start": 32.80, "end": 34.25},
+    {"lines": ["เลือกกาแฟที่ลิงก์หน้าโปรไฟล์"], "start": 34.30, "end": 36.30},
+    {"lines": ["แล้วติดตามตอนต่อไปนะครับ"], "start": 36.32, "end": 38.60}
+  ],
+
+  "graphics_note": "Positions, timings and texts for the educational overlays live in remotion/src/ep04/config.ts (rendered by ComponentLabel, MoistureRelease, ReactionLabel, FirstCrackPulse, SurfaceLipidCallout, StageChip).",
+
+  "audio": {
+    "music_master": "assets/music/balena_series_music_master.mp3 (cache key fb57a5108c698e791374)",
+    "music_loop": "assets/music/balena_series_music_loop_8bars.wav",
+    "music_use": "master from 21.0 s so its natural resolving ending lands at the end of the video; fade-in 1.0 s; ducked under narration",
+    "first_crack": "assets/sfx/first_crack_ticks_ep04.wav (2.85-4.30 s slice of the EP02 approved first_crack.mp3, high-passed 300 Hz): ticks land at 12.87, 13.75, 13.79 s in the narration gap 12.76-13.98 s",
+    "bed": "assets/sfx/roasting_drum_bed_loop.mp3 (EP02) very low under the footage, dipped for the crack",
+    "accent": "assets/sfx/soft_transition_accent.mp3 (EP01) into the ending card",
+    "source_audio": "not used: the light clip is silent and the medium/dark clips carry generated crackle-like noise",
+    "target_lufs": -15, "true_peak": -1.5
+  },
+
+  "stage": {
+    "voice": ["OPEN", "LIGHT", "MEDIUM", "DARK", "END"],
+    "audio": {"music_master": "assets/music/balena_series_music_master.mp3", "first_crack_ticks": "assets/sfx/first_crack_ticks_ep04.wav",
+              "roasting_drum_bed_loop": "assets/sfx/roasting_drum_bed_loop.mp3", "soft_transition_accent": "assets/sfx/soft_transition_accent.mp3"},
+    "level_dbfs": {"music_master": -20, "first_crack_ticks": -30, "roasting_drum_bed_loop": -30, "soft_transition_accent": -30}
+  },
+
+  "outputs": {
+    "final": "output/Balena_EP04_Final_TH.mp4",
+    "clean": "output/Balena_EP04_Clean.mp4",
+    "srt": "output/Balena_EP04_TH.srt",
+    "voice_dir": "output/Balena_EP04_VO",
+    "narration_wav": "output/Balena_EP04_Narration.wav"
+  }
+}

@@ -68,3 +68,15 @@ Music is omitted from EP01. ElevenLabs' Music Terms list the Starter plan as "Fo
 1. Put an approved track in `assets/music/` with its licence or provenance.
 2. Set `audio.music` in the config.
 3. Add the music input to the mix in `build_episode.py`, ducked under the voice like the ambience.
+
+## Series music (reusable)
+
+All four takes from the EP.04 ElevenLabs Music run are kept in `assets/music/`. Usage terms, measurements and generation IDs for each file are in `balena_series_music.provenance.json`.
+
+| File | Use |
+|---|---|
+| `balena_series_music_master.mp3` | Take 2, the master: steadiest, with a natural ending. Used in EP.04. |
+| `balena_series_music_loop_8bars.wav` | Seamless 22.1 s, 8-bar loop cut from the master |
+| `balena_series_music_take1.mp3` | Natural ending, slightly less even. Peaks near 0 dBFS, so lower the gain. |
+| `balena_series_music_take4.mp3` | Natural ending |
+| `balena_series_music_take3_no_ending.mp3` | Steady bed with no resolving ending, so fade it yourself or loop a section. Peaks near 0 dBFS. |

@@ -1,16 +1,42 @@
 {
  "files": {
-  "balena_series_music_master.mp3": "60 s instrumental with a natural resolving ending (ElevenLabs Music v2.5, take 2 of 4)",
-  "balena_series_music_loop_8bars.wav": "8-bar loop (12.000-34.100 s of the master, 22.100 s, ~87 BPM) with a 60 ms equal-power seam crossfade; seam tested: sample jump 0.0014 (< typical 0.0043), no level step"
+  "balena_series_music_master.mp3": {
+   "take": 2,
+   "generation_id": "5DojCF4olekcAAKC9jSG",
+   "notes": "Used in EP04 (from 21.0 s so its ending lands on the last frame). Steadiest middle (±1.3 dB), natural resolving fade over the last ~4 s. -14.7 LUFS, -1.3 dBTP."
+  },
+  "balena_series_music_loop_8bars.wav": {
+   "from": "master 12.000-34.100 s",
+   "notes": "8 bars at ~87 BPM, 22.100 s, 60 ms equal-power seam crossfade; seam sample jump 0.0014 (< typical 0.0043), no level step."
+  },
+  "balena_series_music_take1.mp3": {
+   "take": 1,
+   "generation_id": "i9Fb7XsnRL0oFrT5shZB",
+   "notes": "Same prompt. Middle level ±2.0 dB (slightly less even); natural fade over the last ~4 s. -16.6 LUFS, -0.2 dBTP: lower the gain before use (peaks near 0 dBFS)."
+  },
+  "balena_series_music_take3_no_ending.mp3": {
+   "take": 3,
+   "generation_id": "FFpEJPMuwQhBXrI8OSNQ",
+   "notes": "Same prompt. Steady middle (±1.3 dB) but NO resolving ending: still at full level at 60 s - use as a bed with your own fade, or loop a section. -16.1 LUFS, -0.2 dBTP: lower the gain before use."
+  },
+  "balena_series_music_take4.mp3": {
+   "take": 4,
+   "generation_id": "0Q2kUBn2SoLkM0YuJjJM",
+   "notes": "Same prompt. Middle ±1.6 dB; natural fade over the last ~4 s. -15.0 LUFS, -1.0 dBTP."
+  }
  },
  "source": "ElevenLabs Music via the ElevenLabs connector",
  "model_id": "eleven_music_v2_5",
  "prompt": "Warm, friendly acoustic café instrumental at about 88 BPM: gentle fingerpicked acoustic guitar, soft warm keyboard chords and restrained brushed percussion, curious, calm and welcoming. Keep it steady and even through the middle as a clean loopable groove with no prominent lead melody, no build-ups or drops, then settle into a soft, natural resolving ending on the tonic in the last few seconds. No vocals, no spoken words.",
- "settings": {"duration_seconds": 60, "lyrics_type": "instrumental", "instrumental": true},
- "generation_id": "5DojCF4olekcAAKC9jSG",
+ "settings": {
+  "duration_seconds": 60,
+  "lyrics_type": "instrumental",
+  "instrumental": true
+ },
  "flow_id": "9QVcNiAudRi5BjIwQgX2",
- "credits": 900,
+ "credits": "≈4,500 for the four takes (account delta; the generator reported 900 per take)",
  "created": "2026-11-21",
  "plan_at_creation": "ElevenLabs Starter",
- "usage_terms": "ElevenLabs Music Terms (https://elevenlabs.io/music-terms), Exhibit A, Starter: eligibility 'For Individual Use Only'; media rights 'All online and offline commercial use permitted, except film, TV, radio, and Studio Games'; streaming distribution prohibited; no attribution required. Whether Balena Roastery qualifies as individual use is the owner's decision. Not described as copyright-free or Content-ID-free."
+ "usage_terms": "ElevenLabs Music Terms (https://elevenlabs.io/music-terms), Exhibit A, Starter: eligibility 'For Individual Use Only'; media rights 'All online and offline commercial use permitted, except film, TV, radio, and Studio Games'; streaming distribution prohibited; no attribution required. Whether Balena Roastery qualifies as individual use is the owner's decision. Not described as copyright-free or Content-ID-free.",
+ "all_takes": "All four takes from the EP04 generation run are kept for reuse. None contains vocals or speech (checked with Whisper). Not cut-tested as loops except the master's 8-bar loop."
 }

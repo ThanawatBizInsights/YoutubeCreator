@@ -18,7 +18,7 @@ export type Shot = {
 // Order follows the take exactly (ice -> syrup -> milk -> coffee -> stir); the two hero shots use the
 // finished drink from the end of the take.
 export const shots: Shot[] = [
-  { name: "Hero open · finished drink", srcIn: 119.0, beats: 4, crop: { x: 0.39, y: 0.55, from: 1.28, to: 1.22 } },
+  { name: "Hero open · finished drink", srcIn: 119.0, beats: 4, crop: { x: 0.13, y: 0.55, from: 1.22, to: 1.18 } },
   { name: "1 Ice · first scoop", srcIn: 7.15, beats: 3, dissolveIn: 0.25 },
   { name: "1 Ice · second scoop", srcIn: 11.95, beats: 2 },
   { name: "1 Ice · third scoop", srcIn: 15.25, beats: 3 },
@@ -31,7 +31,7 @@ export const shots: Shot[] = [
   { name: "4 Coffee · layers settle (close)", srcIn: 98.0, beats: 3, crop: { x: 0.39, y: 0.55, from: 1.3, to: 1.36 } },
   { name: "5 Stir · spoon in", srcIn: 106.3, beats: 6 },
   { name: "5 Stir · mixing (close)", srcIn: 113.5, beats: 5, crop: { x: 0.39, y: 0.48, from: 1.28, to: 1.3 } },
-  { name: "Hero close · finished drink", srcIn: 117.6, beats: 8, crop: { x: 0.39, y: 0.56, from: 1.0, to: 1.2 }, dissolveIn: 0.25 },
+  { name: "Hero close · finished drink", srcIn: 117.6, beats: 8, crop: { x: 0.13, y: 0.56, from: 1.0, to: 1.2 }, dissolveIn: 0.25 },
 ];
 
 export const TOTAL_BEATS = shots.reduce((a, s) => a + s.beats, 0); // 70
@@ -48,6 +48,7 @@ export const music = {
   volume: 0.9,
 };
 
+// Hero crops anchor left of the glass (glass spans x 0.06-0.72) so the whole drink stays in frame.
 // Natural, appetising grade: slight warm white-balance shift (wall measured cool, B/R 1.17), gentle contrast/saturation.
 export const grade = {
   matrix: "1.06 0 0 0 0  0 1.0 0 0 0  0 0 0.94 0 0  0 0 0 1 0",

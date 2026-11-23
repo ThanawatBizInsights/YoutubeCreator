@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { BalenaEP03 } from "./BalenaEP03";
 import { BalenaEP04 } from "./ep04/BalenaEP04";
+import { IcedCoffeeHowTo } from "./drink/IcedCoffeeHowTo";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -40,6 +41,14 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         defaultProps={{ showCaptions: false }}
+      />
+      <Composition
+        id="Iced-Coffee-HowTo"
+        component={IcedCoffeeHowTo}
+        durationInFrames={1145}
+        fps={24}
+        width={1080}
+        height={1920}
       />
     </>
   );
